@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
+*::selection{
+    background-color:#e3e3e3;
+    color:#fff;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgba(37,141,235,0.4);
+}
+
+#listaTxt{
+    text-align:center;
+    font-size:50px;
+    margin:0px;
+    font-family:"Catamaran";
+    color:#fff;
+    text-decoration:underline;
+    transition:0.3s all linear;
+    cursor:pointer;
+}
+
+#listaTxt:hover{
+    color:#e3e3e3;
+}
+
+#rodape{
+    border:2px solid #222;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    background-color:#528deb;
+}
+
+#input-l{
+    position:absolute;
+    top:130px;
+    left:50px;
+    width:300px;
+    height:40px;
+    outline:none;
+    border:2px solid #529aeb;
+    border-radius:10px;
+    font-size:25px;
+    padding-left:20px;
+    font-family:"Catamaran";
+}
+
+#input-l::placeholder{
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+#input-l:hover{
+    background-color:#ededed;
+    font-weight:bold;
+}
+
+#input-l:focus{
+    box-shadow:0px 0px 10px #528deb;
+    background-color:#ededed;
+}
+
+#btnAdd{
+    position:absolute;
+    top:130px;
+    left:420px;
+    font-size:23px;
+    font-family:"Catamaran";
+    cursor:pointer;
+    border:2px solid #528deb;
+    padding:3px 15px;
+    box-sizing:border-box;
+    border-radius:10px;
+    color:#000;
+    transition:0.3s all linear;
+}
+
+#btnAdd:hover{
+    background-color:#528deb;
+    color:#fff;
+    text-decoration:underline;
+    transform:scale(1.05);
+}
+
+#lista{
+    position:absolute;
+    top:220px;
+    left:50px;
+    font-family:"Catamaran";
+}
+
+#ul-lista{
+    font-size:30px;
+    font-family:"Catamaran";
+    position:absolute;
+    top:160px;
+    left:50px;
+}
+
+#lista li{
+    padding-top:5px;
+    font-size:20px;
+}
+
+#input-cont{
+    position:absolute;
+    top:125px;
+    left:345px;
+    font-size:22px;
+    font-family:"Catamaran";
+    z-index:2;
+    color:#23b6fa;
+}
+
+#btnDel{
+    position:absolute;
+    top:130px;
+    left:580px;
+    font-size:23px;
+    font-family:"Catamaran";
+    cursor:pointer;
+    border:2px solid #eb3734;
+    padding:3px 15px;
+    box-sizing:border-box;
+    border-radius:10px;
+    color:#000;
+    transition:0.3s all linear;
+}
+
+#btnDel:hover{
+    background-color:#eb3734;
+    color:#fff;
+    text-decoration:underline;
+    transform:scale(1.05);
+}
+
+#selOg{
+    position:absolute;
+    top:134px;
+    left:770px;
+    width:220px;
+    height:40px;
+    text-align:center;
+    font-size:22px;
+    font-family:"Catamaran";
+    outline:none;
+    border:2px solid #528deb;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#selOg:hover{
+    background-color:#ddd;
+    font-weight:bold;
+}
+
+#selOg option{
+    background-color:#528deb;
+    color:#fff;
+}
+
