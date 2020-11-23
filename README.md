@@ -1,2 +1,2 @@
 # my-List
-Lista para anotar itens.
+:bulb: Lista para anotar itens.
