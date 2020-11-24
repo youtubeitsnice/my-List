@@ -98,6 +98,8 @@ btnDel.addEventListener("click",function(){
         }
 
         inputl.value="";
+        selOg.disabled="true";
+        selOg.style.cursor="default";
     }
 });
 
@@ -106,14 +108,18 @@ selOg.addEventListener("change",function(){
         let mochila=[];
         let res=lista.childElementCount;
         let novoLi=document.createElement("li");
+        lista.remove();
 
         for(let i=0;i<res+1;i++){
             mochila.push(lista.childNodes[i].innerHTML);
             mochila.sort();
-            novoLi.textContent=mochila[i];
-            lista.appendChild(novoLi);
         }
 
+        for(let i=0;i<res+1;i++){
+            novoLi.textContent=mochila[i];  
+            lista.appendChild(novoLi);
+        }
+        
         mochila.pop();
         console.log(mochila);
     }
