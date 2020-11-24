@@ -161,3 +161,30 @@ body{
     color:#fff;
 }
 
+@media only screen and (max-width:980px){
+    #input-l{
+        width:400px;
+        font-size:30px;
+    }
+
+    #selOg{
+        top:200px;
+        left:50px;     
+    }
+
+    #ul-lista{
+        top:225px;
+    }
+
+    #btnAdd{
+        left:540px;
+    }
+
+    #btnDel{
+        left:720px;
+    }
+
+    #input-cont{
+        left:445px;
+    }
+}
